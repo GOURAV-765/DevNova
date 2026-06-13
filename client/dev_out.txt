@@ -1,0 +1,699 @@
+
+> client@0.0.0 dev
+> vite
+
+
+  [32m[1mVITE[22m v7.3.5[39m  [2mready in [0m[1m1665[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m6:47:36 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminDashboard.jsx, /src/index.css[22m
+[2m6:48:12 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminDashboard.jsx, /src/index.css[22m
+[2m6:48:17 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminDashboard.jsx, /src/index.css[22m
+[2m6:48:23 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminDashboard.jsx, /src/index.css[22m
+[2m6:49:03 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminDashboard.jsx, /src/index.css[22m
+[2m6:49:04 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\Gourav\OneDrive\Desktop\Blog Ai\client\src\pages\AdminDashboard.jsx: Expected corresponding JSX closing tag for <AnimatePresence>. (925:10)
+
+[0m [90m 923 |[31m             )}
+ [90m 924 |[31m
+[31m[1m>[22m[31m[90m 925 |[31m           [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m     |[31m           [31m[1m^[22m[31m
+ [90m 926 |[31m
+ [90m 927 |[31m         [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 928 |[31m       [33m<[31m[33m/[31m[33mmain[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/Gourav/OneDrive/Desktop/Blog Ai/client/src/pages/AdminDashboard.jsx[39m:925:10
+[33m  923 |              )}
+  924 |  
+  925 |            </div>
+      |            ^
+  926 |  
+  927 |          </div>[39m
+      at constructor (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:365:19)
+      at JSXParserMixin.raise (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:6616:19)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4739:16)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElement (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4761:17)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4771:19)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10921:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:39
+      at JSXParserMixin.allowInAnd (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12443:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12510:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11692:28)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11348:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4776:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10921:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at JSXParserMixin.parseExpressionBase (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10801:23)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10797:39
+      at JSXParserMixin.allowInAnd (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12438:16)
+      at JSXParserMixin.parseExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10797:17)
+      at JSXParserMixin.parseReturnStatement (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:13159:28)
+      at JSXParserMixin.parseStatementContent (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12815:21)
+      at JSXParserMixin.parseStatementLike (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12784:17)
+      at JSXParserMixin.parseStatementListItem (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12764:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:13333:61)
+      at JSXParserMixin.parseBlockBody (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:13326:10)
+      at JSXParserMixin.parseBlock (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:13314:10)
+      at JSXParserMixin.parseFunctionBody (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12117:24)
+      at JSXParserMixin.parseArrowExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12092:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11704:12)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11348:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4776:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+[2m6:49:27 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminDashboard.jsx, /src/index.css[22m
+[2m6:49:30 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\Gourav\OneDrive\Desktop\Blog Ai\client\src\pages\AdminDashboard.jsx: Expected corresponding JSX closing tag for <AnimatePresence>. (933:10)
+
+[0m [90m 931 |[31m             )}
+ [90m 932 |[31m
+[31m[1m>[22m[31m[90m 933 |[31m           [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m     |[31m           [31m[1m^[22m[31m
+ [90m 934 |[31m
+ [90m 935 |[31m         [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 936 |[31m       [33m<[31m[33m/[31m[33mmain[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/Gourav/OneDrive/Desktop/Blog Ai/client/src/pages/AdminDashboard.jsx[39m:933:10
+[33m  931 |              )}
+  932 |  
+  933 |            </div>
+      |            ^
+  934 |  
+  935 |          </div>[39m
+      at constructor (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:365:19)
+      at JSXParserMixin.raise (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:6616:19)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4739:16)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElement (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4761:17)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4771:19)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10921:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:39
+      at JSXParserMixin.allowInAnd (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12443:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12510:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11692:28)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11348:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4776:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10921:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at JSXParserMixin.parseExpressionBase (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10801:23)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10797:39
+      at JSXParserMixin.allowInAnd (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12438:16)
+      at JSXParserMixin.parseExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10797:17)
+      at JSXParserMixin.parseReturnStatement (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:13159:28)
+      at JSXParserMixin.parseStatementContent (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12815:21)
+      at JSXParserMixin.parseStatementLike (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12784:17)
+      at JSXParserMixin.parseStatementListItem (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12764:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:13333:61)
+      at JSXParserMixin.parseBlockBody (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:13326:10)
+      at JSXParserMixin.parseBlock (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:13314:10)
+      at JSXParserMixin.parseFunctionBody (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12117:24)
+      at JSXParserMixin.parseArrowExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12092:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11704:12)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11348:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4776:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+[2m6:49:43 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminDashboard.jsx, /src/index.css[22m
+[2m6:49:43 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\Gourav\OneDrive\Desktop\Blog Ai\client\src\pages\AdminDashboard.jsx: Expected corresponding JSX closing tag for <motion.div>. (692:14)
+
+[0m [90m 690 |[31m
+ [90m 691 |[31m                 [33m<[31m[33m/[31m[33mform[31m[33m>[31m
+[31m[1m>[22m[31m[90m 692 |[31m               [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m     |[31m               [31m[1m^[22m[31m
+ [90m 693 |[31m             )}
+ [90m 694 |[31m
+ [90m 695 |[31m             {[90m/* VIEW 3: Manage Blogs list Tab */[31m}[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/Gourav/OneDrive/Desktop/Blog Ai/client/src/pages/AdminDashboard.jsx[39m:692:14
+[33m  690 |  
+  691 |                  </form>
+  692 |                </div>
+      |                ^
+  693 |              )}
+  694 |  [39m
+      at constructor (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:365:19)
+      at JSXParserMixin.raise (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:6616:19)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4739:16)
+      at JSXParserMixin.jsxParseElement (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4761:17)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4771:19)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10921:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:39
+      at JSXParserMixin.allowInAnd (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12443:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12510:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11692:28)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11348:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4776:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOpBaseRightExpr (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11003:34)
+      at JSXParserMixin.parseExprOpRightExpr (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10998:21)
+      at JSXParserMixin.parseExprOp (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10964:27)
+      at JSXParserMixin.parseExprOp (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10970:21)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10925:17)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at JSXParserMixin.parseExpressionBase (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10801:23)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10797:39
+      at JSXParserMixin.allowInAnd (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12443:12)
+      at JSXParserMixin.parseExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10797:17)
+      at JSXParserMixin.jsxParseExpressionContainer (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4644:31)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4723:36)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElement (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4761:17)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4771:19)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10921:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:39
+[2m6:49:54 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminDashboard.jsx, /src/index.css[22m
+[2m6:49:54 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\Gourav\OneDrive\Desktop\Blog Ai\client\src\pages\AdminDashboard.jsx: Unexpected token (686:16)
+
+[0m [90m 684 |[31m                     disabled[33m=[31m{[33m![31mformTitle[33m.[31mtrim() [33m||[31m [33m![31mformDescription[33m.[31mtrim()}
+ [90m 685 |[31m                     className[33m=[31m[32m"w-full flex items-center justify-center gap-2 px-6 py-4 bg-primary hover:bg-primary-dark text-white rounded-xl text-sm font-semibold shadow-md shadow-primary/20 hover:scale-[1.01] active:scale-95 disabled:scale-100 cursor-pointer disabled:cursor-not-allowed transition-all"[31m
+[31m[1m>[22m[31m[90m 686 |[31m                 [33m<[31m[33mdiv[31m className[33m=[31m[32m"flex justify-between items-center flex-wrap gap-4"[31m[33m>[31m
+ [90m     |[31m                 [31m[1m^[22m[31m
+ [90m 687 |[31m                   [33m<[31m[33mh2[31m className[33m=[31m[32m"text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white"[31m[33m>[31m[33mManage[31m [33mArticles[31m[33m<[31m[33m/[31m[33mh2[31m[33m>[31m
+ [90m 688 |[31m                   [33m<[31m[33mbutton[31m
+ [90m 689 |[31m                     onClick[33m=[31m{() [33m=>[31m handleTabChange([32m'write'[31m)}[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/Gourav/OneDrive/Desktop/Blog Ai/client/src/pages/AdminDashboard.jsx[39m:686:16
+[33m  684 |                      disabled={!formTitle.trim() || !formDescription.trim()}
+  685 |                      className="w-full flex items-center justify-center gap-2 px-6 py-4 bg-primary hover:bg-primary-da...
+  686 |                  <div className="flex justify-between items-center flex-wrap gap-4">
+      |                  ^
+  687 |                    <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white">Manage Articles</h2>
+  688 |                    <button[39m
+      at constructor (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:365:19)
+      at JSXParserMixin.raise (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:6616:19)
+      at JSXParserMixin.unexpected (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:6636:16)
+      at JSXParserMixin.jsxParseIdentifier (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4581:12)
+      at JSXParserMixin.jsxParseNamespacedName (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4588:23)
+      at JSXParserMixin.jsxParseAttribute (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4664:22)
+      at JSXParserMixin.jsxParseOpeningElementAfterName (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4679:28)
+      at JSXParserMixin.jsxParseOpeningElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4674:17)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4698:33)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElement (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4761:17)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4771:19)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10921:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:39
+      at JSXParserMixin.allowInAnd (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12443:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12510:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11692:28)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11348:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4776:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOpBaseRightExpr (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11003:34)
+      at JSXParserMixin.parseExprOpRightExpr (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10998:21)
+      at JSXParserMixin.parseExprOp (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10964:27)
+      at JSXParserMixin.parseExprOp (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10970:21)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10925:17)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at JSXParserMixin.parseExpressionBase (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10801:23)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10797:39
+      at JSXParserMixin.allowInAnd (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12443:12)
+      at JSXParserMixin.parseExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10797:17)
+      at JSXParserMixin.jsxParseExpressionContainer (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4644:31)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4723:36)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElement (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4761:17)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4771:19)
+[2m6:50:03 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminDashboard.jsx, /src/index.css[22m
+[2m6:50:03 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\Gourav\OneDrive\Desktop\Blog Ai\client\src\pages\AdminDashboard.jsx: Expected corresponding JSX closing tag for <AnimatePresence>. (940:10)
+
+[0m [90m 938 |[31m             )}
+ [90m 939 |[31m
+[31m[1m>[22m[31m[90m 940 |[31m           [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m     |[31m           [31m[1m^[22m[31m
+ [90m 941 |[31m
+ [90m 942 |[31m         [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 943 |[31m       [33m<[31m[33m/[31m[33mmain[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/Gourav/OneDrive/Desktop/Blog Ai/client/src/pages/AdminDashboard.jsx[39m:940:10
+[33m  938 |              )}
+  939 |  
+  940 |            </div>
+      |            ^
+  941 |  
+  942 |          </div>[39m
+      at constructor (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:365:19)
+      at JSXParserMixin.raise (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:6616:19)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4739:16)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElement (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4761:17)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4771:19)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10921:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:39
+      at JSXParserMixin.allowInAnd (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12443:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12510:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11692:28)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11348:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4776:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10921:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at JSXParserMixin.parseExpressionBase (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10801:23)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10797:39
+      at JSXParserMixin.allowInAnd (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12438:16)
+      at JSXParserMixin.parseExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10797:17)
+      at JSXParserMixin.parseReturnStatement (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:13159:28)
+      at JSXParserMixin.parseStatementContent (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12815:21)
+      at JSXParserMixin.parseStatementLike (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12784:17)
+      at JSXParserMixin.parseStatementListItem (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12764:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:13333:61)
+      at JSXParserMixin.parseBlockBody (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:13326:10)
+      at JSXParserMixin.parseBlock (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:13314:10)
+      at JSXParserMixin.parseFunctionBody (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12117:24)
+      at JSXParserMixin.parseArrowExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12092:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11704:12)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11348:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4776:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+[2m6:50:15 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminDashboard.jsx, /src/index.css[22m
+[2m6:50:15 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\Gourav\OneDrive\Desktop\Blog Ai\client\src\pages\AdminDashboard.jsx: Expected corresponding JSX closing tag for <motion.div>. (792:14)
+
+[0m [90m 790 |[31m                   )}
+ [90m 791 |[31m                 [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+[31m[1m>[22m[31m[90m 792 |[31m               [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m     |[31m               [31m[1m^[22m[31m
+ [90m 793 |[31m             )}
+ [90m 794 |[31m
+ [90m 795 |[31m             {[90m/* VIEW 4: Comments Moderation Queue */[31m}[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/Gourav/OneDrive/Desktop/Blog Ai/client/src/pages/AdminDashboard.jsx[39m:792:14
+[33m  790 |                    )}
+  791 |                  </div>
+  792 |                </div>
+      |                ^
+  793 |              )}
+  794 |  [39m
+      at constructor (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:365:19)
+      at JSXParserMixin.raise (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:6616:19)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4739:16)
+      at JSXParserMixin.jsxParseElement (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4761:17)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4771:19)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10921:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:39
+      at JSXParserMixin.allowInAnd (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12443:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12510:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11692:28)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11348:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4776:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOpBaseRightExpr (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11003:34)
+      at JSXParserMixin.parseExprOpRightExpr (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10998:21)
+      at JSXParserMixin.parseExprOp (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10964:27)
+      at JSXParserMixin.parseExprOp (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10970:21)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10925:17)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at JSXParserMixin.parseExpressionBase (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10801:23)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10797:39
+      at JSXParserMixin.allowInAnd (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12443:12)
+      at JSXParserMixin.parseExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10797:17)
+      at JSXParserMixin.jsxParseExpressionContainer (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4644:31)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4723:36)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElement (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4761:17)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4771:19)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10921:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:39
+[2m6:50:34 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminDashboard.jsx, /src/index.css[22m
+[2m6:50:34 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\Gourav\OneDrive\Desktop\Blog Ai\client\src\pages\AdminDashboard.jsx: Expected corresponding JSX closing tag for <motion.div>. (872:14)
+
+[0m [90m 870 |[31m                   )}
+ [90m 871 |[31m                 [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+[31m[1m>[22m[31m[90m 872 |[31m               [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m     |[31m               [31m[1m^[22m[31m
+ [90m 873 |[31m             )}
+ [90m 874 |[31m
+ [90m 875 |[31m             {[90m/* VIEW 5: AI Settings Tab */[31m}[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/Gourav/OneDrive/Desktop/Blog Ai/client/src/pages/AdminDashboard.jsx[39m:872:14
+[33m  870 |                    )}
+  871 |                  </div>
+  872 |                </div>
+      |                ^
+  873 |              )}
+  874 |  [39m
+      at constructor (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:365:19)
+      at JSXParserMixin.raise (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:6616:19)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4739:16)
+      at JSXParserMixin.jsxParseElement (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4761:17)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4771:19)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10921:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:39
+      at JSXParserMixin.allowInAnd (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12443:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12510:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11692:28)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11348:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4776:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOpBaseRightExpr (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11003:34)
+      at JSXParserMixin.parseExprOpRightExpr (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10998:21)
+      at JSXParserMixin.parseExprOp (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10964:27)
+      at JSXParserMixin.parseExprOp (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10970:21)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10925:17)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at JSXParserMixin.parseExpressionBase (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10801:23)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10797:39
+      at JSXParserMixin.allowInAnd (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12443:12)
+      at JSXParserMixin.parseExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10797:17)
+      at JSXParserMixin.jsxParseExpressionContainer (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4644:31)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4723:36)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElement (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4761:17)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4771:19)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10921:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:39
+[2m6:50:52 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminDashboard.jsx, /src/index.css[22m
+[2m6:50:52 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\Gourav\OneDrive\Desktop\Blog Ai\client\src\pages\AdminDashboard.jsx: Expected corresponding JSX closing tag for <motion.div>. (958:14)
+
+[0m [90m 956 |[31m
+ [90m 957 |[31m                 [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+[31m[1m>[22m[31m[90m 958 |[31m               [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m     |[31m               [31m[1m^[22m[31m
+ [90m 959 |[31m             )}
+ [90m 960 |[31m
+ [90m 961 |[31m           [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/Gourav/OneDrive/Desktop/Blog Ai/client/src/pages/AdminDashboard.jsx[39m:958:14
+[33m  956 |  
+  957 |                  </div>
+  958 |                </div>
+      |                ^
+  959 |              )}
+  960 |  [39m
+      at constructor (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:365:19)
+      at JSXParserMixin.raise (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:6616:19)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4739:16)
+      at JSXParserMixin.jsxParseElement (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4761:17)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4771:19)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10921:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:39
+      at JSXParserMixin.allowInAnd (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12443:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12510:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11692:28)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11348:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4776:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOpBaseRightExpr (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11003:34)
+      at JSXParserMixin.parseExprOpRightExpr (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10998:21)
+      at JSXParserMixin.parseExprOp (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10964:27)
+      at JSXParserMixin.parseExprOp (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10970:21)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10925:17)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at JSXParserMixin.parseExpressionBase (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10801:23)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10797:39
+      at JSXParserMixin.allowInAnd (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12443:12)
+      at JSXParserMixin.parseExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10797:17)
+      at JSXParserMixin.jsxParseExpressionContainer (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4644:31)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4723:36)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElement (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4761:17)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4771:19)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10921:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:39
+[2m6:51:02 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminDashboard.jsx, /src/index.css[22m
+[2m6:51:14 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx, /src/index.css[22m
+[2m6:51:24 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx, /src/index.css[22m
+[2m6:51:51 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Header.jsx, /src/index.css[22m
+[2m6:52:33 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/BlogCard.jsx, /src/index.css[22m
+[2m6:52:33 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\Gourav\OneDrive\Desktop\Blog Ai\client\src\components\BlogCard.jsx: Expected corresponding JSX closing tag for <motion.article>. (97:4)
+
+[0m [90m  95 |[31m         [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m  96 |[31m       [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+[31m[1m>[22m[31m[90m  97 |[31m     [33m<[31m[33m/[31m[33marticle[31m[33m>[31m
+ [90m     |[31m     [31m[1m^[22m[31m
+ [90m  98 |[31m   )[33m;[31m
+ [90m  99 |[31m }[33m;[31m
+ [90m 100 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/Gourav/OneDrive/Desktop/Blog Ai/client/src/components/BlogCard.jsx[39m:97:4
+[33m  95 |          </div>
+  96 |        </div>
+  97 |      </article>
+     |      ^
+  98 |    );
+  99 |  };[39m
+      at constructor (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:365:19)
+      at JSXParserMixin.raise (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:6616:19)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4739:16)
+      at JSXParserMixin.jsxParseElement (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4761:17)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4771:19)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10921:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:39
+      at JSXParserMixin.allowInAnd (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12443:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12510:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11692:28)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11348:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4776:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10921:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at JSXParserMixin.parseExpressionBase (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10801:23)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10797:39
+      at JSXParserMixin.allowInAnd (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12438:16)
+      at JSXParserMixin.parseExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10797:17)
+      at JSXParserMixin.parseReturnStatement (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:13159:28)
+      at JSXParserMixin.parseStatementContent (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12815:21)
+      at JSXParserMixin.parseStatementLike (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12784:17)
+      at JSXParserMixin.parseStatementListItem (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12764:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:13333:61)
+      at JSXParserMixin.parseBlockBody (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:13326:10)
+      at JSXParserMixin.parseBlock (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:13314:10)
+      at JSXParserMixin.parseFunctionBody (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12117:24)
+      at JSXParserMixin.parseArrowExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12092:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11704:12)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11348:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4776:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10921:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:39
+[2m6:52:36 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/BlogCard.jsx, /src/index.css[22m
+[2m6:52:54 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Blog.jsx, /src/index.css[22m
+[2m6:52:54 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\Gourav\OneDrive\Desktop\Blog Ai\client\src\pages\Blog.jsx: Expected corresponding JSX closing tag for <div>. (202:12)
+
+[0m [90m 200 |[31m                   [33m<[31m[33m/[31m[33mspan[31m[33m>[31m
+ [90m 201 |[31m                 [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+[31m[1m>[22m[31m[90m 202 |[31m             [33m<[31m[33m/[31m[33mmotion[31m[33m.[31mheader[33m>[31m
+ [90m     |[31m             [31m[1m^[22m[31m
+ [90m 203 |[31m
+ [90m 204 |[31m             {[90m/* Featured Image */[31m}
+ [90m 205 |[31m             [33m<[31m[33mmotion[31m[33m.[31mdiv[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/Gourav/OneDrive/Desktop/Blog Ai/client/src/pages/Blog.jsx[39m:202:12
+[33m  200 |                    </span>
+  201 |                  </div>
+  202 |              </motion.header>
+      |              ^
+  203 |  
+  204 |              {/* Featured Image */}[39m
+      at constructor (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:365:19)
+      at JSXParserMixin.raise (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:6616:19)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4739:16)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4710:32)
+      at JSXParserMixin.jsxParseElement (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4761:17)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4771:19)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10921:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:39
+      at JSXParserMixin.allowInAnd (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12443:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10817:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12510:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11692:28)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11348:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4776:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10916:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10921:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10898:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10848:21)
+      at JSXParserMixin.parseExpressionBase (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10801:23)
+      at C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10797:39
+      at JSXParserMixin.allowInAnd (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12438:16)
+      at JSXParserMixin.parseExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:10797:17)
+      at JSXParserMixin.parseReturnStatement (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:13159:28)
+      at JSXParserMixin.parseStatementContent (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12815:21)
+      at JSXParserMixin.parseStatementLike (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12784:17)
+      at JSXParserMixin.parseStatementListItem (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12764:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:13333:61)
+      at JSXParserMixin.parseBlockBody (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:13326:10)
+      at JSXParserMixin.parseBlock (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:13314:10)
+      at JSXParserMixin.parseFunctionBody (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12117:24)
+      at JSXParserMixin.parseArrowExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:12092:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11704:12)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11348:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:4776:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11098:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11083:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Gourav\Blog-Ai-Deps\node_modules\@babel\parser\lib\index.js:11063:23)
+[2m6:53:33 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Blog.jsx, /src/index.css[22m

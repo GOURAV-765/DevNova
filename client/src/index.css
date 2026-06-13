@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #6366f1;
+  --color-primary-dark: #4f46e5;
+  --color-secondary: #a855f7;
+  --color-accent: #06b6d4;
+  --color-bg-dark: #070a13;
+  --color-card-dark: #0d1222;
+  --color-border-dark: rgba(255, 255, 255, 0.07);
+}
+
+* {
+  font-family: "Plus Jakarta Sans", "Outfit", sans-serif;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Outfit", sans-serif;
+}
+
+.serif-font {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #0f172a;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.dark body {
+  background-color: #070a13;
+  color: #f1f5f9;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(99, 102, 241, 0.2);
+  border-radius: 99px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 102, 241, 0.4);
+}
+
+/* Glassmorphism Styles */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.dark .glass-panel {
+  background: rgba(13, 18, 34, 0.65);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.glass-nav {
+  background: rgba(248, 250, 252, 0.8);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.dark .glass-nav {
+  background: rgba(7, 10, 19, 0.8);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.02);
+}
+
+.dark .glass-card {
+  background: rgba(13, 18, 34, 0.4);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Custom Animation Utility */
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.15;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.35;
+    transform: scale(1.05);
+  }
+}
+
+.bg-glow-blob {
+  filter: blur(120px);
+  animation: pulseGlow 12s infinite ease-in-out;
+}
+
+/* Rich HTML Content styling for generated blog posts */
+.blog-content {
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.blog-content h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #1e293b;
+}
+
+.dark .blog-content h2 {
+  color: #f8fafc;
+}
+
+.blog-content h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #334155;
+}
+
+.dark .blog-content h3 {
+  color: #f1f5f9;
+}
+
+.blog-content p {
+  margin-bottom: 1.25rem;
+  color: #475569;
+}
+
+.dark .blog-content p {
+  color: #cbd5e1;
+}
+
+.blog-content ul, .blog-content ol {
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.blog-content ul {
+  list-style-type: disc;
+}
+
+.blog-content ol {
+  list-style-type: decimal;
+}
+
+.blog-content li {
+  margin-bottom: 0.5rem;
+  color: #475569;
+}
+
+.dark .blog-content li {
+  color: #cbd5e1;
+}
+
+.blog-content pre {
+  background: #0f172a;
+  color: #38bdf8;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  font-family: monospace;
+  font-size: 0.9rem;
+  margin: 1.5rem 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.blog-content code {
+  font-family: monospace;
+  background: rgba(99, 102, 241, 0.1);
+  color: #6366f1;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+  font-size: 0.9em;
+}
+
+.dark .blog-content code {
+  background: rgba(99, 102, 241, 0.2);
+  color: #a5b4fc;
+}
+
+.blog-content strong {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.dark .blog-content strong {
+  color: #ffffff;
+}
+
+.blog-content blockquote {
+  border-left: 4px solid #6366f1;
+  padding-left: 1rem;
+  font-style: italic;
+  color: #475569;
+  margin: 1.5rem 0;
+}
+
+.dark .blog-content blockquote {
+  color: #cbd5e1;
+}
